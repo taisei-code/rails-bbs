@@ -8,5 +8,5 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   # lovalhost:3000/posts/new
-  resources :posts, only:[:index, :new, :create]
+  resources :posts, only:[:index, :new, :create, :edit, :update, :destroy]
 end
